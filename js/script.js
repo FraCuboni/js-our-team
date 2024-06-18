@@ -12,7 +12,7 @@ const teamMembers=[
         "nome": "Wayne",
         "cognome": "barnett",
         "ruolo": "Founder & CEO",
-        "img": "wayne-barnett-founder-ceo.jpg"
+        "img": "img/wayne-barnett-founder-ceo.jpg"
     },
     {
         "nome": "MARIO",
@@ -46,27 +46,39 @@ const teamMembers=[
     },
 ]
 
+
+let container = document.querySelector(".container");
+
 // creo il ciclo per stampare le infomrazioni di ogni membro in consoles
 for (let key in teamMembers){
     console.log(teamMembers[key]);
+    // creo l'elemento div
+    let card = document.createElement("div");
+    card.classList.add('card');
+    // rendo il div un child di container
+    container.appendChild(card);
+
+    // creo ulteriori classi figlie di card per contenere le varie informazioni 
+    let img = document.createElement("img");
+    let nameSurname = document.createElement("div");
+    let role = document.createElement("div");
+
+    // unisco i vari figli di card a card e associo le classi
+    card.appendChild(img);
+    card.appendChild(nameSurname);
+    nameSurname.classList.add('ns');
+    card.appendChild(role);
+    role.classList.add('role');
+
+    // inserisco i dati degli oggetti all'interno dei div creati
+    img.innerHTML= teamMembers[key].img;
+    nameSurname.innerHTML=`${teamMembers[key].nome} ${teamMembers[key].cognome}`;
+    role.innerHTML= teamMembers[key].ruolo;
 }
 
 // stampo le informazioni sul dom sottoforma di stringhe
 
 // creo il container che conterrà le box
-let container = document.querySelector(".container");
 
 // creo il ciclo per creare i vari oggetti all'interno del DOM
 
-
-for (let i = 0; i < teamMembers.length; i++){
-
-    // assegno il valore i all'array aggiungendo una variabile
-    let member = teamMembers[i];
-    // creo l'elemento div
-    let card = document.createElement("div")
-    // rendo il div un child di container
-    container.appendChild(card);
-
-    card.innerHTML= member.nome;
-}
