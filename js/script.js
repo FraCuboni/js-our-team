@@ -68,5 +68,5 @@ for (let i = 0; i < teamMembers.length; i++){
     // rendo il div un child di container
     container.appendChild(card);
 
-    card.innerHTML= member;
+    card.innerHTML= member.nome;
 }
