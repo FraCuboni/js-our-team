@@ -15,34 +15,34 @@ const teamMembers=[
         "img": "img/wayne-barnett-founder-ceo.jpg"
     },
     {
-        "nome": "MARIO",
-        "cognome": "barnett",
-        "ruolo": "Founder & CEO",
-        "img": "img/wayne-barnett-founder-ceo.jpg"
+        "nome": "Angela",
+        "cognome": "Caroll",
+        "ruolo": "Chief Editor",
+        "img": "img/angela-caroll-chief-editor.jpg"
     },
     {
-        "nome": "GIROGIO",
-        "cognome": "barnett",
-        "ruolo": "Founder & CEO",
-        "img": "img/wayne-barnett-founder-ceo.jpg"
+        "nome": "Walter",
+        "cognome": "Gordon",
+        "ruolo": "Office Manager",
+        "img": "img/walter-gordon-office-manager.jpg"
     },
     {
-        "nome": "ELENe",
-        "cognome": "barnett",
-        "ruolo": "Founder & CEO",
-        "img": "img/wayne-barnett-founder-ceo.jpg"
+        "nome": "Angela",
+        "cognome": "Lopez",
+        "ruolo": "Social Media Manager",
+        "img": "img/angela-lopez-social-media-manager.jpg"
     },
     {
-        "nome": "GAIA",
-        "cognome": "barnett",
-        "ruolo": "Founder & CEO",
-        "img": "img/wayne-barnett-founder-ceo.jpg"
+        "nome": "Scott",
+        "cognome": "Estrada",
+        "ruolo": "Developer",
+        "img": "img/scott-estrada-developer.jpg"
     },
     {
-        "nome": "LUCIA",
-        "cognome": "barnett",
-        "ruolo": "Founder & CEO",
-        "img": "img/wayne-barnett-founder-ceo.jpg"
+        "nome": "Barbara",
+        "cognome": "Ramos",
+        "ruolo": "Graphic Designer",
+        "img": "img/barbara-ramos-graphic-designer.jpg"
     },
 ]
 
