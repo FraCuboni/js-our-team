@@ -46,4 +46,7 @@ const teamMembers=[
     },
 ]
 
-console.log(teamMembers[2]);
+// creo il ciclo per stampare le infomrazioni di ogni membro
+for (let key in teamMembers){
+    console.log(teamMembers[key]);
+}
