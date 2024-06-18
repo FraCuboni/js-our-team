@@ -38,4 +38,11 @@ img{
 
 .ns{
     padding: 0.5rem;
+    color:  rgb(66, 61, 61);
+    font-weight: 600;
+}
+
+.role{
+    font-size: 0.8rem;
+    color:  rgb(66, 61, 61);
 }

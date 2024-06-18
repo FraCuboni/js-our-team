@@ -75,10 +75,3 @@ for (let key in teamMembers){
     nameSurname.innerHTML=`${teamMembers[key].nome} ${teamMembers[key].cognome}`;
     role.innerHTML= teamMembers[key].ruolo;
 }
-
-// stampo le informazioni sul dom sottoforma di stringhe
-
-// creo il container che conterrà le box
-
-// creo il ciclo per creare i vari oggetti all'interno del DOM
-
