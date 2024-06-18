@@ -18,31 +18,31 @@ const teamMembers=[
         "nome": "MARIO",
         "cognome": "barnett",
         "ruolo": "Founder & CEO",
-        "img": "wayne-barnett-founder-ceo.jpg"
+        "img": "img/wayne-barnett-founder-ceo.jpg"
     },
     {
         "nome": "GIROGIO",
         "cognome": "barnett",
         "ruolo": "Founder & CEO",
-        "img": "wayne-barnett-founder-ceo.jpg"
+        "img": "img/wayne-barnett-founder-ceo.jpg"
     },
     {
         "nome": "ELENe",
         "cognome": "barnett",
         "ruolo": "Founder & CEO",
-        "img": "wayne-barnett-founder-ceo.jpg"
+        "img": "img/wayne-barnett-founder-ceo.jpg"
     },
     {
         "nome": "GAIA",
         "cognome": "barnett",
         "ruolo": "Founder & CEO",
-        "img": "wayne-barnett-founder-ceo.jpg"
+        "img": "img/wayne-barnett-founder-ceo.jpg"
     },
     {
         "nome": "LUCIA",
         "cognome": "barnett",
         "ruolo": "Founder & CEO",
-        "img": "wayne-barnett-founder-ceo.jpg"
+        "img": "img/wayne-barnett-founder-ceo.jpg"
     },
 ]
 
@@ -71,7 +71,7 @@ for (let key in teamMembers){
     role.classList.add('role');
 
     // inserisco i dati degli oggetti all'interno dei div creati
-    img.innerHTML= teamMembers[key].img;
+    img.src= teamMembers[key].img;
     nameSurname.innerHTML=`${teamMembers[key].nome} ${teamMembers[key].cognome}`;
     role.innerHTML= teamMembers[key].ruolo;
 }
